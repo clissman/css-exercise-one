@@ -33,12 +33,15 @@ h3 {
 
 
 .element {
-  background-color: green;
   height: 100px;
   margin: 10px 0;
   width: 100%;
-} 
+}
 
-.element:nth-last-of-type(-n + 3) { /*Changes last three elements with 'element' class applied.*/ 
+.element--color {
+    background-color: green;
+}
+
+.element--color:nth-last-of-type(-n + 3) { /*Changes last three elements with 'element--color' class applied.*/ 
   background: tomato;
 }
